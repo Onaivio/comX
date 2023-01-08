@@ -7,16 +7,16 @@ const Footer = () => {
         <div className="flex py-3 px-8 bg-black items-center">
           <h6 className="text-[#ffffff]">Live Market</h6>
         </div>
-        <button aria-hidden="true" class="relative focus:outline-none">
+        <button aria-hidden="true" className="relative focus:outline-none">
           {/* x-cloak @click="toggleTheme" */}
-          <div class="w-12 h-6 transition rounded-full outline-none bg-primary-100 dark:bg-primary-lighter"></div>
+          <div className="w-12 h-6 transition rounded-full outline-none bg-primary-100 dark:bg-primary-lighter"></div>
           <div
-            class="absolute top-0 left-0 inline-flex items-center justify-center w-6 h-6 transition-all duration-150 transform scale-110 rounded-full shadow-sm"
+            className="absolute top-0 left-0 inline-flex items-center justify-center w-6 h-6 transition-all duration-150 transform scale-110 rounded-full shadow-sm"
             // :class="{ 'translate-x-0 -translate-y-px  bg-white text-primary-dark': !isDark, 'translate-x-6 text-primary-100 bg-primary-darker': isDark }"
           >
             <svg
               x-show="!isDark"
-              class="w-4 h-4"
+              className="w-4 h-4"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
@@ -31,7 +31,7 @@ const Footer = () => {
             </svg>
             <svg
               x-show="isDark"
-              class="w-4 h-4"
+              className="w-4 h-4"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"

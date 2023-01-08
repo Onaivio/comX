@@ -74,20 +74,30 @@ const data = [
     matricNumber: "520-669-8364",
   },
 ];
-console.log(data);
+
+
+
 const Tradelog = () => {
   return (
+    
     <div>
-      {/* <div class="grid grid-col-1 items-center justify-center p-2 xl:grid-cols-2 lg:grid-cols-2 bg-white rounded-md h-[405px]"> */}
       <div className="flex bg-white px-6">
-        <div class="font-bold tracking-wider uppercase text-xs px- py-2">ttttrgfd</div>
-    </div>
-      <div class="overflow-x-auto bg-white rounded-lg shadow overflow-y-auto h-[300px]">
-      <div className="flex bg-white px-6">
-        <div class="font-bold tracking-wider uppercase text-xs px- py-2">ttttrgfd</div>
-        <div class="font-bold tracking-wider uppercase text-xs px-14 py-2">ttttrgfd</div>
-        <div class="px-14 py-2 font-bold tracking-wider uppercase text-xs ">ttttrgfd</div>
+        <div className="font-bold tracking-wider uppercase text-xs px- py-2">
+          ttttrgfd
+        </div>
       </div>
+      <div className="flex bg-white px-6">
+        <div className="font-bold tracking-wider uppercase text-xs px- py-2">
+          ttttrgfd
+        </div>
+        <div className="font-bold tracking-wider uppercase text-xs px-14 py-2">
+          ttttrgfd
+        </div>
+        <div className="px-14 py-2 font-bold tracking-wider uppercase text-xs ">
+          ttttrgfd
+        </div>
+      </div>
+      <div className="overflow-x-auto bg-white rounded-lg shadow overflow-y-auto h-[300px]">
         {data.map(
           ({
             userId,
@@ -98,23 +108,22 @@ const Tradelog = () => {
             level,
           }) => {
             return (
-              <table class="border-collapse  table-auto w-full whitespace-wrap bg-white ">
-
+              <table className="border-collapse  table-auto w-full whitespace-wrap bg-white ">
                 <tbody>
                   <tr>
-                    <td class="border-dashed border-t border-gray-200 ">
-                      <span class="text-gray-700 text-left  px-6 flex items-center">
+                    <td className="border-dashed border-t border-gray-200 ">
+                      <span className="text-gray-700 text-left text-xs  px-6 flex items-center">
                         {firstName}
                       </span>
                     </td>
-                    <td class="border-dashed border-t border-gray-200">
-                      <span class="text-gray-700 px-6 py-3 text-left  flex items-center">
+                    <td className="border-dashed border-t border-gray-200">
+                      <span className="text-gray-700 px-6 py-3 text-xs text-left  flex items-center">
                         {lastName}
                       </span>
                     </td>
 
-                    <td class="border-dashed border-t border-gray-200">
-                      <span class="text-gray-700 px-6 py-3 flex items-center">
+                    <td className="border-dashed border-t border-gray-200">
+                      <span className="text-gray-700 px-6 py-3 text-xs flex items-center">
                         {matricNumber}
                       </span>
                     </td>
@@ -126,7 +135,6 @@ const Tradelog = () => {
         )}
       </div>
     </div>
-    // </div>
   );
 };
 
