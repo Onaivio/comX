@@ -1,8 +1,5 @@
 import React from 'react'
-import About from './components/About';
-// import Developers from './components/Developers';
 import Footer from './components/Footer';
-// import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import Content from './components/Content';
 import Sidebar from './components/Sidebar';
