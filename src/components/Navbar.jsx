@@ -42,7 +42,7 @@ const Navbar = () => {
                 cash balance
               </span>
               <span className="text-gray-900 text-xl uppercase font-extrabold">
-                $8,374,763
+              &#8358; 8,374,763
               </span>
             </li>
             <li className="flex flex-col items-center px-6 justify-center">
