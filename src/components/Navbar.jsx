@@ -11,11 +11,11 @@ const Navbar = () => {
     <div className="w-full h-[70px] bg-white border-b shadow">
       <div className="max-w-[1500px] mx-auto px-2 flex justify-between items-center h-full">
         <div>
-          {/* <h1 className="text-[#a02d18]">Logo</h1> */}
+      
           <img src="image 1.png" alt="" />
         </div>
         <div className="hidden md:flex">
-          <ul className="flex text-gray-900 items-center">
+          <ul className="flex text-gray-900 items-center ">
             <div className="py-1 px-2 bg-gray-100 rounded-full flex gap-2 items-center">
               <span className="text-[7px] font-extrabold uppercase">light</span>
               <span className="p-2 bg-white rounded-full">
