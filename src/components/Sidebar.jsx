@@ -2,7 +2,7 @@ import React from "react";
 
 const Sidebar = () => {
   return (
-    <aside className="flex-shrink-0 hidden w-[90px] bg-white border-r  md:block fixed">
+    <aside className="flex-shrink-0 hidden h-full w-[90px] bg-white border-r  md:block fixed">
       <div className="flex flex-col h-screen">
         <nav
           aria-label="Main"

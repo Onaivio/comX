@@ -35,7 +35,6 @@ const Content = () => {
             <div className="flex items-center justify-center hover:text-red-600 hover:bg-gray-100 pr-4 py-5 cursor-pointer rounded-md">
               <div>
                 <span>
-              
                   <img src="trending-up.png" className="pr-2" alt="" />
                 </span>
               </div>
@@ -48,7 +47,6 @@ const Content = () => {
             <div className="flex items-center justify-center hover:bg-gray-100 pr-7 py-5 cursor-pointer rounded-md ">
               <div>
                 <span>
-     
                   <img src="book.png" className="pr-2" alt="" />
                 </span>
               </div>
@@ -61,7 +59,6 @@ const Content = () => {
             <div className="flex items-center justify-center hover:bg-gray-100 pr-4 py-5 cursor-pointer rounded-md ">
               <div>
                 <span>
-             
                   <img src="Shape-1.png" className="pr-2" alt="" />
                 </span>
               </div>
@@ -74,7 +71,7 @@ const Content = () => {
             <div className="flex items-center justify-center hover:bg-gray-100 pr-6 py-5 cursor-pointer rounded-md ">
               <div>
                 <span>
-                <img src="eye.png" className="pr-2" alt="" />
+                  <img src="eye.png" className="pr-2" alt="" />
                 </span>
               </div>
               <div className="">
@@ -86,7 +83,7 @@ const Content = () => {
             <div className="flex items-center justify-center hover:bg-gray-100 pr-1 py-5 cursor-pointer rounded-md ">
               <div>
                 <span>
-                <img src="Shape.png" className="pr-2" alt="" />
+                  <img src="Shape.png" className="pr-2" alt="" />
                 </span>
               </div>
               <div className="">
@@ -98,7 +95,7 @@ const Content = () => {
             <div className="flex items-center justify-center hover:bg-gray-100 pl-2 py-5 cursor-pointer rounded-md ">
               <div>
                 <span>
-                <img src="x-circle.png" className="pr-2" alt="" />
+                  <img src="x-circle.png" className="pr-2" alt="" />
                 </span>
               </div>
               <div className="">

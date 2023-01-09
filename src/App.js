@@ -19,12 +19,6 @@ function App() {
         <Navbar />
         <Sidebar />
         <Content />
-        {/* <Table /> */}
-        {/* <Hero />
-        <Developers />
-        <Subscribe />
-      <About />
-      */}
          <Footer />
     </div>
   );

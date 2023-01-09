@@ -75,11 +75,8 @@ const data = [
   },
 ];
 
-
-
 const Tradelog = () => {
   return (
-    
     <div>
       <div className="flex bg-white px-6">
         <div className="font-bold tracking-wider uppercase text-xs px- py-2">
@@ -97,7 +94,7 @@ const Tradelog = () => {
           ttttrgfd
         </div>
       </div>
-      <div className="overflow-x-auto bg-white rounded-lg shadow overflow-y-auto h-[300px]">
+      <div className="overflow-x-auto bg-white rounded-lg shadow overflow-y-auto h-[250px]">
         {data.map(
           ({
             userId,
